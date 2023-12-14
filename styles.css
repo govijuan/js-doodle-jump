@@ -1,0 +1,23 @@
+.grid {
+    width: 400px;
+    height: 600px;
+    background-image: url("paper-grid.png");
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+}
+.doodler {
+    width: 87px;
+    height: 78px;
+    background-image: url("doodle.png");
+    background-size: contain;
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 19px;
+    background: url("platforms-sprite.png") 23% 45%;
+    background-size: 260px 216px;
+    position: absolute;
+}
